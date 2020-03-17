@@ -17,11 +17,9 @@ class Money{
 
 
    Money addMoney(Money m1, Money m2);
-   Money subVectors(Money m1, Money m2);
+   Money subMoney(Money m1, Money m2);
 
 };
 //---------------------------------------------------------------------------
-#endif
-
 
 #endif // MONEY_H
