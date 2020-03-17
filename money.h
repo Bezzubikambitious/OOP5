@@ -1,6 +1,6 @@
 #ifndef MONEY_H
 #define MONEY_H
-
+#include <string>
 class Money{
    private:
    int dolar, cent;
@@ -14,10 +14,10 @@ class Money{
    int GetDolar() const ;
    void SetCent(int cent);
    int GetCent() const;
+   std::string get_res();
 
-
-   Money addMoney(Money m1, Money m2);
-   Money subMoney(Money m1, Money m2);
+   Money addMoney(Money m2);
+   Money subMoney(Money m2);
 
 };
 //---------------------------------------------------------------------------
